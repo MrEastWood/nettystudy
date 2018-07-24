@@ -56,7 +56,6 @@ class AsyncServerHandler implements Runnable{
 	}	
 	
 	private void doAccept(){
-		
 		asynchronousServerSocketChannel.accept(this, new AcceptCompletionHandler());
 		
 	}
